@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ *     Nim : 10119181
+ *     Nama : Rama Ramdani
+ *     Tanggal Pengerjaan : 2 Juni 2022
+ -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cek Kembali Isian Data"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jenis Tes"
+                android:textColor="@color/black"
+                android:layout_marginTop="32dp"/>
+
+            <TextView
+                android:id="@+id/tx_jns_tes"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tanggal Terkonfirmasi"
+                android:textColor="@color/black"
+                android:layout_marginTop="32dp"/>
+
+            <TextView
+                android:id="@+id/tgl_konfirmasi"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NIK"
+            android:textColor="@color/black"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/tx_nik"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Nama"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tx_nama"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Tanggal Lahir"
+            android:layout_marginTop="16dp"/>
+        <TextView
+            android:id="@+id/tx_tgl_lahir"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Jenis Kelamin"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tx_jkelamin"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Hubungan Dengan Anda"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tx_Hubungan"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+        <Button
+            android:id="@+id/lanjut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selanjutnya"/>
+
+        <Button
+            android:id="@+id/ubah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubah"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
